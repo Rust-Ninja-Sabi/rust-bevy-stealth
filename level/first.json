@@ -1,0 +1,201 @@
+{
+  "draworder": "topdown",
+  "id": 3,
+  "name": "Objektebene 1",
+  "objects": [
+    {
+      "class": "wall",
+      "height": 396,
+      "id": 1,
+      "name": "",
+      "rotation": 0,
+      "visible": true,
+      "width": 22,
+      "x": 624,
+      "y": 1
+    },
+    {
+      "class": "player",
+      "height": 0,
+      "id": 2,
+      "name": "",
+      "point": true,
+      "rotation": 0,
+      "visible": true,
+      "width": 0,
+      "x": 44,
+      "y": 342
+    },
+    {
+      "class": "treasure",
+      "height": 0,
+      "id": 4,
+      "name": "",
+      "point": true,
+      "rotation": 0,
+      "visible": true,
+      "width": 0,
+      "x": 59,
+      "y": 57
+    },
+    {
+      "class": "treasure",
+      "height": 0,
+      "id": 5,
+      "name": "",
+      "point": true,
+      "rotation": 0,
+      "visible": true,
+      "width": 0,
+      "x": 357,
+      "y": 58
+    },
+    {
+      "class": "treasure",
+      "height": 0,
+      "id": 6,
+      "name": "",
+      "point": true,
+      "rotation": 0,
+      "visible": true,
+      "width": 0,
+      "x": 245,
+      "y": 327
+    },
+    {
+      "class": "treasure",
+      "height": 0,
+      "id": 7,
+      "name": "",
+      "point": true,
+      "rotation": 0,
+      "visible": true,
+      "width": 0,
+      "x": 40,
+      "y": 210
+    },
+    {
+      "class": "wall",
+      "height": 396,
+      "id": 8,
+      "name": "",
+      "rotation": 0,
+      "visible": true,
+      "width": 22,
+      "x": 2,
+      "y": -1
+    },
+    {
+      "class": "wall",
+      "height": 22,
+      "id": 10,
+      "name": "",
+      "rotation": 0,
+      "visible": true,
+      "width": 600,
+      "x": 24,
+      "y": 1
+    },
+    {
+      "class": "wall",
+      "height": 22,
+      "id": 11,
+      "name": "",
+      "rotation": 0,
+      "visible": true,
+      "width": 600,
+      "x": 26,
+      "y": 373
+    },
+    {
+      "class": "guardline",
+      "height": 0,
+      "id": 13,
+      "name": "",
+      "polygon": [
+        {
+          "x": -9,
+          "y": 0
+        },
+        {
+          "x": 459.607142857143,
+          "y": 2.60591133004925
+        },
+        {
+          "x": 461.303571428571,
+          "y": 123
+        },
+        {
+          "x": -12.6964285714286,
+          "y": 122.394088669951
+        }
+      ],
+      "rotation": 0,
+      "visible": true,
+      "width": 0,
+      "x": 97.6964285714285,
+      "y": 131
+    },
+    {
+      "class": "ground",
+      "height": 397,
+      "id": 14,
+      "name": "ground",
+      "rotation": 0,
+      "visible": false,
+      "width": 642,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "class": "wall",
+      "height": 87,
+      "id": 16,
+      "name": "",
+      "rotation": 0,
+      "visible": true,
+      "width": 29,
+      "x": 304,
+      "y": 285
+    },
+    {
+      "class": "wall",
+      "height": 72,
+      "id": 17,
+      "name": "",
+      "rotation": 0,
+      "visible": true,
+      "width": 32,
+      "x": 295,
+      "y": 25
+    },
+    {
+      "class": "wall",
+      "height": 36,
+      "id": 18,
+      "name": "",
+      "rotation": 0,
+      "visible": true,
+      "width": 383,
+      "x": 138,
+      "y": 180
+    },
+    {
+      "class": "door",
+      "height": 0,
+      "id": 19,
+      "name": "",
+      "point": true,
+      "rotation": 0,
+      "visible": true,
+      "width": 0,
+      "x": 556,
+      "y": 313
+    }
+  ],
+  "opacity": 1,
+  "type": "objectgroup",
+  "visible": true,
+  "x": 0,
+  "y": 0
+}

@@ -80,7 +80,6 @@ impl OrbitCamera {
 fn emit_motion_events(
     mut events: EventWriter<CameraEvents>,
     mut mouse_motion_events: EventReader<MouseMotion>,
-    res:Option<ResMut<EguiContext>>,
     mouse_button_input: Res<Input<MouseButton>>,
     mut query: Query<&OrbitCamera>
 ){
@@ -90,15 +89,7 @@ fn emit_motion_events(
     for event in mouse_motion_events.iter() {
         delta += event.delta;
     }
-    match res{
-        Some(mut egui_context) => {
-            let context = egui_context.ctx_mut();
-            if context.wants_pointer_input() {
-                send_event = false
-            }
-        }
-        _ => {}
-    }
+
     for camera in query.iter_mut() {
         if camera.enabled {
             if mouse_button_input.pressed(camera.rotate_button){
